@@ -1,17 +1,7 @@
-"# cookiecutter-python"
+# cookiecutter-python
 
-A simple Streamlit app template for you to modify!
+A simple template for my own personal Python3.6+ projects utilizing black + isort + flake8 + poetry + mypy + bandit + bugbear + more goodness. Best used with [cruft](https://timothycrosley.github.io/cruft/)
 
-### How to run it on your own machine
+To use:
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+        cruft create https://github.com/timothycrosley/cookiecutter-python/
